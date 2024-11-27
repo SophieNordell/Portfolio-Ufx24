@@ -218,11 +218,14 @@ a:hover {
 }
 
 .footer-about {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  padding-bottom: 10px;
+  text-align: center;
+  background-color: #58a47c;
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
+
 .footer-index {
   display: flex;
   justify-content: center;
@@ -304,15 +307,6 @@ body {
   height: auto;
 }
 
-footer {
-  text-align: center;
-  background-color: #58a47c;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 /* Media Query för mobil */
 @media (max-width: 768px) {
   .main-div {
@@ -322,9 +316,11 @@ footer {
   }
 
   .main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
     margin-left: 0;
-    order: 1;
   }
 
   .projects {
@@ -341,19 +337,14 @@ footer {
     height: auto;
     padding-left: 1em;
   }
-  .main-container {
-    text-align: center;
-    order: 1;
-  }
 
   .cv-btn {
     order: 3;
     margin-top: 1em;
   }
 
-  footer {
-    flex-direction: row;
-    gap: 15px;
+  .footer-about {
+    position: static;
   }
 
   .knows {
@@ -378,5 +369,9 @@ footer {
   .cv-and-contact {
     display: flex;
     flex-direction: column;
+  }
+
+  .main-container p {
+    max-width: 80vw;
   }
 }
