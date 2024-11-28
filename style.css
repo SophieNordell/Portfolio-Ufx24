@@ -16,7 +16,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fefdf6;
   border-bottom: 2px solid rgb(233, 232, 232);
   padding-bottom: 1px;
   position: sticky;
@@ -33,7 +32,7 @@ nav {
 
 .nav-links a.active {
   color: #58a47c;
-  background-color: #f5f5f5;
+
   border-radius: 1em;
   border-bottom: 1px solid #58a47c;
 }
