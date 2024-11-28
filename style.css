@@ -333,7 +333,7 @@ body {
 
   .img-mobile {
     display: block;
-    width: 25em;
+    width: 20em;
     height: auto;
     padding-left: 1em;
   }
@@ -363,7 +363,8 @@ body {
   }
 
   .nav-links a {
-    margin-right: 0px;
+    margin-right: 4px;
+    font-size: smaller;
   }
 
   .cv-and-contact {
@@ -372,6 +373,22 @@ body {
   }
 
   .main-container p {
-    max-width: 80vw;
+    max-width: 85vw;
+  }
+  .main-container h1 {
+    font-size: larger;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .cv-and-contact {
+    width: 100%;
+    gap: 1em;
+  }
+  h1 {
+    font-size: x-large;
+  }
+  h2 {
+    font-size: larger;
   }
 }
